@@ -3,6 +3,8 @@ const cors = require('cors');
 const { db } = require('./db/db');
 const {readdirSync} = require('fs')
 const app = express()
+const authRoutes = require('./routes/auth');
+const mongoose = require('mongoose');
 
 require('dotenv').config()
 
