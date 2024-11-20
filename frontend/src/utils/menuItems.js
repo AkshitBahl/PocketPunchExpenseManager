@@ -11,7 +11,7 @@ export const menuItems = [
         id: 2,
         title: "View Transactions",
         icon: transactions,
-        link: "/dashboard",
+        link: "/transactions",
     },
     {
         id: 3,
@@ -36,5 +36,11 @@ export const menuItems = [
         title: "contact",
         icon: transactions,
         link: "/contact",
+    },
+    {
+        id: 7,
+        title: "Fraud Detector",
+        icon: trend,
+        link: "/frauddetector",
     }
 ]

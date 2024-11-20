@@ -13,6 +13,8 @@ import Register from './Components/Register/Register';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Team from './Components/Team/Team';
 import Contact from './Components/Contact/Contact';
+import FraudDetector from './Components/FraudDetector/FraudDetector';
+import Transactions from './Components/Transactions/Transactions';
 
 function App() {
   const [active, setActive] = useState(1);
@@ -33,8 +35,10 @@ function App() {
               <Route path="/income" element={<Income />} />
               <Route path="/expenses" element={<Expenses />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/transactions" element={<Transactions />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/frauddetector" element={<FraudDetector />} />
             </Routes>
           </main>
         </MainLayout>

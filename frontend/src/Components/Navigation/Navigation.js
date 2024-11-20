@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import avatar from '../../img/avatar.png';
+import avatar from '../../img/avatar.jpg';
 import { signout } from '../../utils/Icons';
 import { menuItems } from '../../utils/menuItems';
 import { useGlobalContext } from '../../context/globalContext';
@@ -19,7 +19,7 @@ function Navigation({ active, setActive }) {
             <div className="user-con">
                 <img src={avatar} alt="User avatar" />
                 <div className="text">
-                    <h2>{currentUser?.username || 'User'}</h2> {/* Display username from context */}
+                    <h2>{currentUser?.username || 'Akshit'}</h2> {/* Display username from context */}
                     <p>Your Money</p>
                 </div>
             </div>
